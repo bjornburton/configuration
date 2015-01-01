@@ -41,8 +41,12 @@ Instead I installed the official version from
 http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
 
 The file "/etc/profile" exports paths for texlive 2014
-
 ------------------------------------------------------------
 
 
+------------------------------------------------------------
+File ".Xmodmap" supplants the Caps_Lock fuction (rarely needed)
+with the Escape used for mode switching in VIM. It's a hidden
+file that should be placed in the home directory.
+------------------------------------------------------------
 
