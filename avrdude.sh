@@ -1,4 +1,5 @@
 #! /bin/bash
+# /usr/share/arduino/hardware/tools/avrdude.sh
 
 ######################################################
 # A simple wrapper to replace hard-coded avrdude
