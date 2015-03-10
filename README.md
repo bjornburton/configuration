@@ -50,3 +50,11 @@ with the Escape used for mode switching in VIM. It's a hidden
 file that should be placed in the home directory.
 ------------------------------------------------------------
 
+------------------------------------------------------------
+conky.desktop is placed into ~/.config/autostart/
+conky is wrapped in a bash script to prevent additional
+instances on a restored session. This is a dumb hack. There
+is something wrong with the mechanism. It seems unique to
+conky.
+
+------------------------------------------------------------
