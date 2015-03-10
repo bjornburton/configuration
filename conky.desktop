@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.9.0-2
+Type=Application
+Name=conky
+Comment=
+Exec=bash -c "if ! ps -A | grep -q conky; then conky -p 30;fi"
+StartupNotify=false
+Terminal=false
+Hidden=false
+
+Name[en_US.UTF-8]=conky.desktop
