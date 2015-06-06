@@ -29,6 +29,14 @@ Since it must share that directory, the original avrdude should
 be renamed to "avrdude.old." Of course, this script must be
 named "avrdude" and be made executable through
 "chmod +x avrdude"
+ 
+------------------------------------------------------------
+
+------------------------------------------------------------
+File avrdude.conf goes into /etc/
+This is a newer conf that has Trinket and Gemma timings added.
+
+
 ------------------------------------------------------------
 
 
@@ -45,6 +53,7 @@ So far it has worked perfectly and pacman and tlmgr are not
 colliding.
 
 The file "/etc/profile" exports paths for texlive 2014
+
 ------------------------------------------------------------
 
 
@@ -52,6 +61,7 @@ The file "/etc/profile" exports paths for texlive 2014
 File ".Xmodmap" supplants the Caps_Lock function (rarely needed)
 with the Escape used for mode switching in VIM. It's a hidden
 file that should be placed in the home directory.
+
 ------------------------------------------------------------
 
 ------------------------------------------------------------
