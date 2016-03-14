@@ -1,0 +1,16 @@
+[user]
+	email = bjorn@mm.st
+	name = Bjorn Burton
+[merg]
+	ff = false
+[merge]
+	ff = no
+	tool = vimdiff
+[core]
+	editor = /bin/vim
+[diff]
+	tool = vimdiff
+[push]
+	default = upstream
+[credential]
+	helper = cache

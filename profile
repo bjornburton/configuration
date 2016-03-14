@@ -4,12 +4,13 @@
 umask 022
 
 # Set our default path
-PATH="/usr/local/sbin:/usr/local/bin:/usr/bin"
+PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/local/texlive/2015/bin/"
 export PATH
 
-export PATH=/usr/local/texlive/2014/bin/x86_64-linux:$PATH
-export MANPATH=/usr/local/texlive/2014/texmf-dist/doc/man:$MANPATH
-export INFOPATH=/usr/local/texlive/2014/texmf-dist/doc/info:$INFOPATH
+export PATH=/usr/local/texlive/2015/bin/x86_64-linux:$PATH
+export MANPATH=/usr/local/texlive/2015/texmf-dist/doc/man:$MANPATH
+export INFOPATH=/usr/local/texlive/2015/texmf-dist/doc/info:$INFOPATH
+
 
 # Load profiles from /etc/profile.d
 if test -d /etc/profile.d/; then
@@ -20,7 +21,7 @@ if test -d /etc/profile.d/; then
 fi
 
 # Source global bash config
-if test "$PS1" && test "$BASH" && test -r /etc/bash.bashrc; then
+if test "$PS1" && test "$BASH" && test -z ${POSIXLY_CORRECT+x} && test -r /etc/bash.bashrc; then
 	. /etc/bash.bashrc
 fi
 

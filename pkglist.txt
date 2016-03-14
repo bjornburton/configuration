@@ -25,6 +25,7 @@ bzip2
 catalyst-utils
 catfish
 check
+chromium
 clang
 conky
 coreutils
