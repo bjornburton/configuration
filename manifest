@@ -2,6 +2,8 @@ tex-live (using native installer!!!)
 avrdude 1:6.1-1
 audacity 2.1.1-2
 avr-gcc 5.3.0-1
+avr-gdb
+avarice
 [manual] egypt 1.10-3
 transmission-gtk 2.84-2
 graphviz 2.38.0-11
@@ -21,11 +23,14 @@ putty 0.66-1
 kicad 4.0.1-2
 kicad-library 4.0.1-1
 kicad-library-3d 4.0.1-1
+wxpithon
 sigil
 aspell en
 evince 3.18.2-2
 ghostscript 9.18-6
 chromium
+
+
 
 ca-certificates 20150402-1
 ca-certificates-cacert 20140824-2
