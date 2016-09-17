@@ -70,4 +70,9 @@ is a collection of udev rules and so goes here: /etc/udev/rules.d/
 It allows software like avrdude to access ISP hardware.
 The two important ones, for me, are usbtiny and usbasp. 
 
+Use this to load new rules:
+udevadm control --reload
+This may save logging off/on:
+udevadm trigger
+
 ------------------------------------------------------------

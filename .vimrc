@@ -3,6 +3,7 @@ set background=dark
 setlocal spell spelllang=en_us
 set spell spelllang=en_us
 syntax spell toplevel
+set expandtab
 let filetype_w = "cweb"
 syn sync maxlines=2000
 syn sync minlines=500
@@ -21,3 +22,10 @@ augroup vimrcEx
     \   exe "normal g`\"" |
     \ endif
 augroup END
+
+match ErrorMsg '\s\+$'
+
+command Gitcommit execute "!git add .;git commit"
+command Gitpush execute "!git push"
+command Doit execute "!make;make installavr"
+map <F12> :Doit<CR>
