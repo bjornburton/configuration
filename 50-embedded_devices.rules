@@ -17,3 +17,5 @@ SUBSYSTEM=="usb", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="2103", GROUP="uucp
 #Atmel Corp. AVR ISP mkII
 SUBSYSTEM=="usb", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="2104", GROUP="uucp", MODE="0666"
 
+#FTDI FT2232HL for JTAG
+SUBSYSTEM=="usb", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6010", GROUP="uucp", MODE="0666"
